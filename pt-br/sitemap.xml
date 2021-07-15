@@ -29,7 +29,6 @@
                 />
   </url><url>
     <loc>https://cpvlordelo.github.io/pt-br/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -42,7 +41,6 @@
                 />
   </url><url>
     <loc>https://cpvlordelo.github.io/pt-br/categories/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -54,40 +52,7 @@
                 href="https://cpvlordelo.github.io/pt-br/categories/"
                 />
   </url><url>
-    <loc>https://cpvlordelo.github.io/pt-br/projects/debuter-avec-hugo/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://cpvlordelo.github.io/projects/hugoisforlovers/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt-br"
-                href="https://cpvlordelo.github.io/pt-br/projects/debuter-avec-hugo/"
-                />
-  </url><url>
-    <loc>https://cpvlordelo.github.io/pt-br/categories/go/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://cpvlordelo.github.io/pt-br/categories/hugo/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://cpvlordelo.github.io/pt-br/projects/introduction-aux-modeles-hugo/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://cpvlordelo.github.io/projects/goisforlovers/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt-br"
-                href="https://cpvlordelo.github.io/pt-br/projects/introduction-aux-modeles-hugo/"
-                />
-  </url><url>
     <loc>https://cpvlordelo.github.io/pt-br/projects/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -97,24 +62,6 @@
                 rel="alternate"
                 hreflang="pt-br"
                 href="https://cpvlordelo.github.io/pt-br/projects/"
-                />
-  </url><url>
-    <loc>https://cpvlordelo.github.io/pt-br/categories/jekyll/</loc>
-    <lastmod>2014-03-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://cpvlordelo.github.io/pt-br/projects/migrer-vers-hugo-depuis-jekyll/</loc>
-    <lastmod>2014-03-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://cpvlordelo.github.io/pt-br/series/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://cpvlordelo.github.io/series/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt-br"
-                href="https://cpvlordelo.github.io/pt-br/series/"
                 />
   </url><url>
     <loc>https://cpvlordelo.github.io/pt-br/tags/</loc>
