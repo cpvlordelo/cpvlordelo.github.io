@@ -2,9 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://cpvlordelo.github.io/projects/unsup_harm_source_separation_pt-br/</loc>
-  </url><url>
-    <loc>https://cpvlordelo.github.io/projects/unsup_harm_source_separation_en/</loc>
+    <loc>https://cpvlordelo.github.io/projects/unsup_harm_source_separation/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-br"
+                href="https://cpvlordelo.github.io/pt-br/projects/unsup_harm_source_separation/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cpvlordelo.github.io/projects/unsup_harm_source_separation/"
+                />
   </url><url>
     <loc>https://cpvlordelo.github.io/about/</loc>
     <lastmod>2021-07-13T00:00:00+00:00</lastmod>
