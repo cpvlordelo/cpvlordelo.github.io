@@ -8,6 +8,26 @@
     <language>en-us</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright><atom:link href="https://cpvlordelo.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Separação Não-Supervisionada de Fontes Harmônicas</title>
+      <link>https://cpvlordelo.github.io/projects/unsup_harm_source_separation_pt-br/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cpvlordelo.github.io/projects/unsup_harm_source_separation_pt-br/</guid>
+      <description>Description This repository includes all the code I have done in 2017 for my Bachelor&amp;rsquo;s Degree Final project. The project consisted of my own implementation in MATLAB of the algorithm for unsupervised source separation based on the concept of Average Harmonic Structure (AHS) modelling that has been proposed on the following paper:
+ Z. Duan, Y. Zhang, C. Zhang and Z. Shi, &amp;ldquo;Unsupervised Single-Channel Music Source Separation by Average Harmonic Structure Modeling&amp;rdquo;, in IEEE Transactions on Audio, Speech, and Language Processing, vol.</description>
+    </item>
+    
+    <item>
+      <title>Unsupervised Harmonic Source Separation</title>
+      <link>https://cpvlordelo.github.io/projects/unsup_harm_source_separation_en/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cpvlordelo.github.io/projects/unsup_harm_source_separation_en/</guid>
+      <description>Description This repository includes all the code I have done in 2017 for my Bachelor&amp;rsquo;s Degree Final project. The project consisted of my own implementation in MATLAB of the algorithm for unsupervised source separation based on the concept of Average Harmonic Structure (AHS) modelling that has been proposed on the following paper:
+ Z. Duan, Y. Zhang, C. Zhang and Z. Shi, &amp;ldquo;Unsupervised Single-Channel Music Source Separation by Average Harmonic Structure Modeling&amp;rdquo;, in IEEE Transactions on Audio, Speech, and Language Processing, vol.</description>
+    </item>
+    
+    <item>
       <title>About Me</title>
       <link>https://cpvlordelo.github.io/about/</link>
       <pubDate>Tue, 13 Jul 2021 00:00:00 +0000</pubDate>

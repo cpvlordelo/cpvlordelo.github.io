@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="author" content="map[name:Carlos Lordelo]">
+<meta name="description" content="Description This repository includes all the code I have done in 2017 for my Bachelor&amp;rsquo;s Degree Final project. The project consisted of my own implementation in MATLAB of the algorithm for unsupervised source separation based on the concept of Average Harmonic Structure (AHS) modelling that has been proposed on the following paper:
+ Z. Duan, Y. Zhang, C. Zhang and Z. Shi, &amp;ldquo;Unsupervised Single-Channel Music Source Separation by Average Harmonic Structure Modeling&amp;rdquo;, in IEEE Transactions on Audio, Speech, and Language Processing, vol." />
+<meta name="keywords" content="" />
+<meta name="robots" content="noodp" />
+<meta name="theme-color" content="" />
+<link rel="canonical" href="https://cpvlordelo.github.io/projects/unsup_harm_source_separation_pt-br/" />
+
+
+    <title>
+        
+            Separação Não-Supervisionada de Fontes Harmônicas :: Carlos Lordelo  — Audio Signal Processing and ML Engineer
+        
+    </title>
+
+
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css" rel="stylesheet"
+    type="text/css">
+
+
+
+<link rel="stylesheet" href="https://cpvlordelo.github.io/main.87841b0cd1e345430909173c45ea27b1eb3c71fef66ac387a8fe4936676af0f0.css">
+
+
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="https://cpvlordelo.github.io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://cpvlordelo.github.io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://cpvlordelo.github.io/favicon-16x16.png">
+    <link rel="manifest" href="https://cpvlordelo.github.io/site.webmanifest">
+    <link rel="mask-icon" href="https://cpvlordelo.github.io/safari-pinned-tab.svg" color="#1b1c1d">
+    <link rel="shortcut icon" href="https://cpvlordelo.github.io/favicon.ico">
+    <meta name="msapplication-TileColor" content="#1b1c1d">
+    <meta name="theme-color" content="#1b1c1d">
+
+
+
+<meta itemprop="name" content="Separação Não-Supervisionada de Fontes Harmônicas">
+<meta itemprop="description" content="Description This repository includes all the code I have done in 2017 for my Bachelor&rsquo;s Degree Final project. The project consisted of my own implementation in MATLAB of the algorithm for unsupervised source separation based on the concept of Average Harmonic Structure (AHS) modelling that has been proposed on the following paper:
+ Z. Duan, Y. Zhang, C. Zhang and Z. Shi, &ldquo;Unsupervised Single-Channel Music Source Separation by Average Harmonic Structure Modeling&rdquo;, in IEEE Transactions on Audio, Speech, and Language Processing, vol.">
+
+<meta itemprop="wordCount" content="369"><meta itemprop="image" content="https://cpvlordelo.github.io"/>
+<meta itemprop="keywords" content="" />
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://cpvlordelo.github.io"/>
+
+<meta name="twitter:title" content="Separação Não-Supervisionada de Fontes Harmônicas"/>
+<meta name="twitter:description" content="Description This repository includes all the code I have done in 2017 for my Bachelor&rsquo;s Degree Final project. The project consisted of my own implementation in MATLAB of the algorithm for unsupervised source separation based on the concept of Average Harmonic Structure (AHS) modelling that has been proposed on the following paper:
+ Z. Duan, Y. Zhang, C. Zhang and Z. Shi, &ldquo;Unsupervised Single-Channel Music Source Separation by Average Harmonic Structure Modeling&rdquo;, in IEEE Transactions on Audio, Speech, and Language Processing, vol."/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </head>
+
+    
+        <body>
+    
+    
+        <div class="container">
+            <header class="header">
+    <span class="header__inner">
+        <a href="https://cpvlordelo.github.io/" style="text-decoration: none;">
+    <div class="logo">
+        
+            <span class="logo__mark">&gt;</span>
+            <span class="logo__text">$ cd /home/</span>
+            <span class="logo__cursor" style=
+                  "
+                   
+                   animation-duration:3s;">
+            </span>
+        
+    </div>
+</a>
+
+
+        <span class="header__right">
+            
+                <nav class="menu">
+    <ul class="menu__inner"><li><a href="https://cpvlordelo.github.io/about/">About</a></li><li><a href="https://cpvlordelo.github.io/publications/">Publications</a></li><li><a href="https://cpvlordelo.github.io/projects/">Projects</a></li>
+    </ul>
+</nav>
+
+                <span class="menu-trigger">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+                    </svg>
+                </span>
+            
+                <span class="theme-toggle not-selectable"><svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+   <path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+   3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+   13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"/>
+ </svg></span>
+
+            
+        </span>
+    </span>
+</header>
+
+
+            <div class="content">
+                
+    <main class="post">
+
+        <div class="post-info">
+            
+            </p>
+        </div>
+
+        <article>
+            <h2 class="post-title"><a href="https://cpvlordelo.github.io/projects/unsup_harm_source_separation_pt-br/">Separação Não-Supervisionada de Fontes Harmônicas</a></h2>
+
+            
+            
+            
+
+            <div class="post-content">
+                <h2 id="description">Description</h2>
+<p>This repository includes all the code I have done in <em>2017</em> for my Bachelor&rsquo;s Degree Final project. The project consisted of my own implementation in MATLAB of the algorithm for unsupervised source separation based on the concept of Average Harmonic Structure (AHS) modelling that has been proposed on the following paper:</p>
+<ul>
+<li>Z. Duan, Y. Zhang, C. Zhang and Z. Shi, &ldquo;<strong>Unsupervised Single-Channel Music Source Separation by Average Harmonic Structure Modeling</strong>&rdquo;, in <em>IEEE Transactions on Audio, Speech, and Language Processing</em>, vol. 16, no. 4, pp. 766-778, May 2008, <a href="https://doi.org/10.1109/TASL.2008.919073">doi: 10.1109/TASL.2008.919073</a>.</li>
+</ul>
+<p>The results I obtained using my own implementation were quite similar to the results of the authors. I have written a complete report (in Portuguese) of this project, which can be found <a href="http://monografias.poli.ufrj.br/monografias/monopoli10022740.pdf">here</a></p>
+<h2 id="previous-code-utilised">Previous Code Utilised</h2>
+<p>Since the original authors did not provide the original code they utilised in their experiments, I have done my own implementation and used the same audio signals that they used in the paper in my tests. The original audio files can be downloaded from the <a href="http://mperesult.googlepages.com/musicseparationresults">website with the paper results</a>.</p>
+<p>Moreover, part of the code (mostly the part related to AHS computation) has been taken from another publication, which also used the concept of AHS, but focused on multi-pitch estimation.</p>
+<ul>
+<li>Z. Duan, B. Pardo, and C. Zhang, &ldquo;<strong>Multiple Fundamental Frequency Estimation by Modeling Spectral Peaks and Non-Peak Regions</strong>&rdquo;, in <em>IEEE Transactions on Audio, Speech, and Language Processing</em>, vol. 18, no. 8, pp. 2121-2133, 2010</li>
+</ul>
+<p>The full code related to this publication can be found on <a href="http://www2.ece.rochester.edu/projects/air/publications.html">Zhiyao Duan&rsquo;s personal webpage</a>. I have taken some of their code, adapted for this project and added in this repo. In the header of each file or function you can find the information regarding its authorship if it has not been originally created by me.</p>
+<h2 id="main-usage">Main Usage</h2>
+<p>The main code is the file <code>MainSeparationAHS.m</code>, which will read the parameters of the configuration file <code>SetParameters_music.m</code> and will perform the whole analysis of the mixture file. The mixture file should be set up by editing the macro <code>AUDIO_FILE</code> in <code>line 14</code> of the script <code>SetParameters_music.m</code>. As default, this line reads</p>
+<pre><code>AUDIO_FILE = 'Mixture.wav'
+</code></pre><p>Detailed explanation of the other parameters in this script can be found in the code as comments.</p>
+
+            </div>
+        </article>
+
+        <hr />
+
+        <div class="post-info">
+            
+            
+  		</div>
+    </main>
+
+            </div>
+
+            
+                <footer class="footer">
+    
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>&copy; 2021</span>
+            <span><a href="https://cpvlordelo.github.io">Carlos Lordelo</a></span>
+            
+            
+            
+        </div>
+    </div>
+    
+    
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>Powered by <a href="http://gohugo.io">Hugo</a> and <a href="https://github.com/rhazdon/hugo-theme-hello-friend-ng">hello-friend-ng</a> theme</span>
+        </div>
+    </div>
+    
+</footer>
+
+            
+        </div>
+
+        
+
+
+
+<script type="text/javascript" src="https://cpvlordelo.github.io/bundle.min.599099f1f14b78b657d524b28e10e0c5098e7cd46e9c7aed73d577068a276c3ff1bb234cbf29cb313333e83cf411727b43157c91ce5b809e2ffc81664614608e.js" integrity="sha512-WZCZ8fFLeLZX1SSyjhDgxQmOfNRunHrtc9V3BoonbD/xuyNMvynLMTMz6Dz0EXJ7QxV8kc5bgJ4v/IFmRhRgjg=="></script>
+
+
+
+    </body>
+</html>
