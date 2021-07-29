@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Sun, 10 Sep 2017 00:00:00 +0000</lastBuildDate><atom:link href="https://cpvlordelo.github.io/pt-br/projects/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 07 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://cpvlordelo.github.io/pt-br/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tap &amp; Fiddle Dataset</title>
+      <link>https://cpvlordelo.github.io/pt-br/projects/tap-and-fiddle/</link>
+      <pubDate>Mon, 07 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://cpvlordelo.github.io/pt-br/projects/tap-and-fiddle/</guid>
+      <description>In this project we have curated 28 stereo recordings of traditional Scandinavian fiddle tunes with accompanying foot-tapping, which is standard performance practice within these musical styles. Its corpora contains not only the mixed signals, but also the two isolated instrumental tracks that can be used to train supervised models for source separation.
+ The fiddle track (harmonic); The foot-tapping track (percussive).  Moreover, foot-tapping in performance of fiddle music has not been systematically studied yet, even though it very often appears as an integral part of the musical expression in Scandinavian fiddle music as a percussive accompaniment.</description>
+    </item>
+    
     <item>
       <title>Separação Não-Supervisionada de Fontes Harmônicas</title>
       <link>https://cpvlordelo.github.io/pt-br/projects/unsup_harm_source_separation/</link>

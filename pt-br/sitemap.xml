@@ -2,6 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://cpvlordelo.github.io/pt-br/projects/tap-and-fiddle/</loc>
+    <lastmod>2020-12-07T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cpvlordelo.github.io/projects/tap-and-fiddle/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-br"
+                href="https://cpvlordelo.github.io/pt-br/projects/tap-and-fiddle/"
+                />
+  </url><url>
     <loc>https://cpvlordelo.github.io/pt-br/projects/unsup_harm_source_separation/</loc>
     <lastmod>2017-09-10T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -13,6 +26,19 @@
                 rel="alternate"
                 hreflang="pt-br"
                 href="https://cpvlordelo.github.io/pt-br/projects/unsup_harm_source_separation/"
+                />
+  </url><url>
+    <loc>https://cpvlordelo.github.io/pt-br/awards/</loc>
+    <lastmod>2021-07-29T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cpvlordelo.github.io/awards/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-br"
+                href="https://cpvlordelo.github.io/pt-br/awards/"
                 />
   </url><url>
     <loc>https://cpvlordelo.github.io/pt-br/about/</loc>
@@ -42,7 +68,7 @@
                 />
   </url><url>
     <loc>https://cpvlordelo.github.io/pt-br/</loc>
-    <lastmod>2017-09-10T00:00:00+00:00</lastmod>
+    <lastmod>2020-12-07T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -55,7 +81,7 @@
                 />
   </url><url>
     <loc>https://cpvlordelo.github.io/pt-br/projects/</loc>
-    <lastmod>2017-09-10T00:00:00+00:00</lastmod>
+    <lastmod>2020-12-07T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
