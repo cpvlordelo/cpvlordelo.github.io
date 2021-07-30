@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="author" content="map[name:Carlos Lordelo]">
-<meta name="description" content="Description This repository includes all the code I have done in 2017 for my Bachelor&amp;rsquo;s Degree Final project. The project consisted of my own implementation in MATLAB of the algorithm for unsupervised source separation based on the concept of Average Harmonic Structure (AHS) modelling that has been proposed on the following paper:
+<meta name="description" content="I have done this project for my Bachelor&amp;rsquo;s Degree thesis. It consists of my own implementation in MATLAB of the algorithm for unsupervised source separation based on the concept of Average Harmonic Structure (AHS) modelling that has been proposed on the following paper:
  Z. Duan, Y. Zhang, C. Zhang and Z. Shi, &amp;ldquo;Unsupervised Single-Channel Music Source Separation by Average Harmonic Structure Modeling&amp;rdquo;, in IEEE Transactions on Audio, Speech, and Language Processing, vol." />
 <meta name="keywords" content="" />
 <meta name="robots" content="noodp" />
@@ -15,7 +15,7 @@
 
     <title>
         
-            Unsupervised Harmonic Source Separation :: Carlos Lordelo  — Audio Signal Processing and ML Engineer
+            Unsupervised Harmonic Source Separation :: Carlos Lordelo  — Audio Signal Processing and Machine Learning
         
     </title>
 
@@ -43,16 +43,16 @@
 
 
 <meta itemprop="name" content="Unsupervised Harmonic Source Separation">
-<meta itemprop="description" content="Description This repository includes all the code I have done in 2017 for my Bachelor&rsquo;s Degree Final project. The project consisted of my own implementation in MATLAB of the algorithm for unsupervised source separation based on the concept of Average Harmonic Structure (AHS) modelling that has been proposed on the following paper:
+<meta itemprop="description" content="I have done this project for my Bachelor&rsquo;s Degree thesis. It consists of my own implementation in MATLAB of the algorithm for unsupervised source separation based on the concept of Average Harmonic Structure (AHS) modelling that has been proposed on the following paper:
  Z. Duan, Y. Zhang, C. Zhang and Z. Shi, &ldquo;Unsupervised Single-Channel Music Source Separation by Average Harmonic Structure Modeling&rdquo;, in IEEE Transactions on Audio, Speech, and Language Processing, vol."><meta itemprop="datePublished" content="2017-09-10T00:00:00&#43;00:00" />
 <meta itemprop="dateModified" content="2017-09-10T00:00:00&#43;00:00" />
-<meta itemprop="wordCount" content="369"><meta itemprop="image" content="https://cpvlordelo.github.io"/>
+<meta itemprop="wordCount" content="252"><meta itemprop="image" content="https://cpvlordelo.github.io"/>
 <meta itemprop="keywords" content="" />
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://cpvlordelo.github.io"/>
 
 <meta name="twitter:title" content="Unsupervised Harmonic Source Separation"/>
-<meta name="twitter:description" content="Description This repository includes all the code I have done in 2017 for my Bachelor&rsquo;s Degree Final project. The project consisted of my own implementation in MATLAB of the algorithm for unsupervised source separation based on the concept of Average Harmonic Structure (AHS) modelling that has been proposed on the following paper:
+<meta name="twitter:description" content="I have done this project for my Bachelor&rsquo;s Degree thesis. It consists of my own implementation in MATLAB of the algorithm for unsupervised source separation based on the concept of Average Harmonic Structure (AHS) modelling that has been proposed on the following paper:
  Z. Duan, Y. Zhang, C. Zhang and Z. Shi, &ldquo;Unsupervised Single-Channel Music Source Separation by Average Harmonic Structure Modeling&rdquo;, in IEEE Transactions on Audio, Speech, and Language Processing, vol."/>
 
 
@@ -149,23 +149,14 @@
             
 
             <div class="post-content">
-                <h2 id="description">Description</h2>
-<p>This <a href="https://github.com/cpvlordelo/source-separation-AHS">repository</a> includes all the code I have done in <em>2017</em> for my Bachelor&rsquo;s Degree Final project. The project consisted of my own implementation in MATLAB of the algorithm for unsupervised source separation based on the concept of Average Harmonic Structure (AHS) modelling that has been proposed on the following paper:</p>
+                <p>I have done this project for my Bachelor&rsquo;s Degree thesis. It consists of my own implementation in MATLAB of the algorithm for unsupervised source separation based on the concept of Average Harmonic Structure (AHS) modelling that has been proposed on the following paper:</p>
 <ul>
 <li>Z. Duan, Y. Zhang, C. Zhang and Z. Shi, &ldquo;<strong>Unsupervised Single-Channel Music Source Separation by Average Harmonic Structure Modeling</strong>&rdquo;, in <em>IEEE Transactions on Audio, Speech, and Language Processing</em>, vol. 16, no. 4, pp. 766-778, May 2008, <a href="https://doi.org/10.1109/TASL.2008.919073">doi: 10.1109/TASL.2008.919073</a>.</li>
 </ul>
-<p>The results I obtained using my own implementation were quite similar to the results of the authors. I have written a complete report (in Portuguese) of this project, which can be found <a href="http://monografias.poli.ufrj.br/monografias/monopoli10022740.pdf">here</a></p>
-<h2 id="previous-code-utilised">Previous Code Utilised</h2>
-<p>Since the original authors did not provide the original code they utilised in their experiments, I have done my own implementation and used the same audio signals that they used in the paper in my tests. The original audio files can be downloaded from the <a href="http://mperesult.googlepages.com/musicseparationresults">website with the paper results</a>.</p>
-<p>Moreover, part of the code (mostly the part related to AHS computation) has been taken from another publication, which also used the concept of AHS, but focused on multi-pitch estimation.</p>
-<ul>
-<li>Z. Duan, B. Pardo, and C. Zhang, &ldquo;<strong>Multiple Fundamental Frequency Estimation by Modeling Spectral Peaks and Non-Peak Regions</strong>&rdquo;, in <em>IEEE Transactions on Audio, Speech, and Language Processing</em>, vol. 18, no. 8, pp. 2121-2133, 2010</li>
-</ul>
-<p>The full code related to this publication can be found on <a href="http://www2.ece.rochester.edu/projects/air/publications.html">Zhiyao Duan&rsquo;s personal webpage</a>. I have taken some of their code, adapted for this project and added in this repo. In the header of each file or function you can find the information regarding its authorship if it has not been originally created by me.</p>
-<h2 id="main-usage">Main Usage</h2>
-<p>The main code is the file <code>MainSeparationAHS.m</code>, which will read the parameters of the configuration file <code>SetParameters_music.m</code> and will perform the whole analysis of the mixture file. The mixture file should be set up by editing the macro <code>AUDIO_FILE</code> in <code>line 14</code> of the script <code>SetParameters_music.m</code>. As default, this line reads</p>
-<pre><code>AUDIO_FILE = 'Mixture.wav'
-</code></pre><p>Detailed explanation of the other parameters in this script can be found in the code as comments.</p>
+<p>The results I obtained using my own implementation were quite similar to the results of the authors. I have written a detailed report (in Portuguese) of this project, which can be found in <a href="http://monografias.poli.ufrj.br/monografias/monopoli10022740.pdf">my bachelor&rsquo;s thesis</a>. The code with my own implementation for this work can be found in <a href="https://github.com/cpvlordelo/source-separation-AHS">this repository</a>.</p>
+<h2 id="overall-description">Overall Description</h2>
+<p>The basic functioning of this algorithm starts with the the assumption that when playing in narrow pitch ranges, different monophonic harmonic instrumental sources in a piece of music often have different but stable harmonic structures. So, monophonic sources can be uniquely characterised by a model that is learned by computing their average harmonic structure througout the music signal.</p>
+<p>Given the number of instrumental sources, this unsupervised method learns those models directly from the mixed signal by clustering the harmonic structures extracted from different frames. The corresponding sources are then extracted from the mixed signal using the models by subtraction on the spectrogram domain. It is important to note that this method has been proposed forseparating monophonic instrumental sources.</p>
 
             </div>
         </article>

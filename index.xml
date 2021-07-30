@@ -9,13 +9,13 @@
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
     <lastBuildDate>Mon, 07 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://cpvlordelo.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Tap &amp; Fiddle Dataset</title>
+      <title>&#39;Tap &amp; Fiddle&#39; Music Dataset</title>
       <link>https://cpvlordelo.github.io/projects/tap-and-fiddle/</link>
       <pubDate>Mon, 07 Dec 2020 00:00:00 +0000</pubDate>
       
       <guid>https://cpvlordelo.github.io/projects/tap-and-fiddle/</guid>
       <description>In this project we have curated 28 stereo recordings of traditional Scandinavian fiddle tunes with accompanying foot-tapping, which is standard performance practice within these musical styles. Its corpora contains not only the mixed signals, but also the two isolated instrumental tracks that can be used to train supervised models for source separation.
- The fiddle track (harmonic); The foot-tapping track (percussive).  Moreover, foot-tapping in performance of fiddle music has not been systematically studied yet, even though it very often appears as an integral part of the musical expression in Scandinavian fiddle music as a percussive accompaniment.</description>
+ The fiddle (or violin) track (harmonic); The foot-tapping track (percussive).  Moreover, foot-tapping in performance of fiddle music has not been systematically studied yet, even though it very often appears as an integral part of the musical expression in Scandinavian fiddle music as a percussive accompaniment.</description>
     </item>
     
     <item>
@@ -34,7 +34,7 @@ However, it is important to note that even though we have access to a reference 
       <pubDate>Sun, 10 Sep 2017 00:00:00 +0000</pubDate>
       
       <guid>https://cpvlordelo.github.io/projects/unsup_harm_source_separation/</guid>
-      <description>Description This repository includes all the code I have done in 2017 for my Bachelor&amp;rsquo;s Degree Final project. The project consisted of my own implementation in MATLAB of the algorithm for unsupervised source separation based on the concept of Average Harmonic Structure (AHS) modelling that has been proposed on the following paper:
+      <description>I have done this project for my Bachelor&amp;rsquo;s Degree thesis. It consists of my own implementation in MATLAB of the algorithm for unsupervised source separation based on the concept of Average Harmonic Structure (AHS) modelling that has been proposed on the following paper:
  Z. Duan, Y. Zhang, C. Zhang and Z. Shi, &amp;ldquo;Unsupervised Single-Channel Music Source Separation by Average Harmonic Structure Modeling&amp;rdquo;, in IEEE Transactions on Audio, Speech, and Language Processing, vol.</description>
     </item>
     
@@ -46,7 +46,7 @@ However, it is important to note that even though we have access to a reference 
       <guid>https://cpvlordelo.github.io/awards/</guid>
       <description>  Marie Sklodowska-Curie Action (MSCA) Fellowship for PhD Programme in Computer Science at Queen Mary University of London (QMUL), UK, 2018-2021 - MIP-Frontiers Project
   Brazilian Science Without Borders Scholarship for Exchange Study Period at University of California, Berkeley, USA 2013-2014
-  Honourable Mention for the performance in the Mathematics Olympiads of the State of Rio de Janeiro &amp;ndash; OMERJ, Brazil, 2009\
+  Honourable Mention for the performance in the Mathematics Olympiads of the State of Rio de Janeiro &amp;ndash; OMERJ, Brazil, 2009
   </description>
     </item>
     
@@ -67,7 +67,7 @@ However, it is important to note that even though we have access to a reference 
       <guid>https://cpvlordelo.github.io/publications/</guid>
       <description>Here is a list of my publications by year.
 Note: PDF is for personal use only. Copyrights are reserved by Publishers
-2021   C. Lordelo, E. Benetos, S. Dixon and S. Ahlbäck, &amp;ldquo;Pitch-informed instrument streaming &amp;quot; in International Society for Music Information Retrieval Conference (ISMIR), Oct 2021.
+2021   C. Lordelo, E. Benetos, S. Dixon and S. Ahlbäck, &amp;ldquo;Pitch-informed instrument streaming &amp;quot; in International Society for Music Information Retrieval Conference (ISMIR), October 2021. [pdf]
   C. Lordelo, E. Benetos, S. Dixon, S. Ahlbäck and P. Ohlsson, &amp;ldquo;Adversarial Unsupervised Domain Adaptation for Harmonic-Percussive Source Separation&amp;rdquo;, in IEEE Signal Processing Letters, vol.</description>
     </item>
     

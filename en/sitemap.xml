@@ -17,6 +17,16 @@
   </url><url>
     <loc>https://cpvlordelo.github.io/projects/automatic-musictrack-removal/</loc>
     <lastmod>2018-08-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-br"
+                href="https://cpvlordelo.github.io/pt-br/projects/automatic-musictrack-removal/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cpvlordelo.github.io/projects/automatic-musictrack-removal/"
+                />
   </url><url>
     <loc>https://cpvlordelo.github.io/projects/unsup_harm_source_separation/</loc>
     <lastmod>2017-09-10T00:00:00+00:00</lastmod>
